@@ -1,0 +1,26 @@
+:root {
+    --background: #fffcf5;
+    --light: #f4f3ee;
+    --main: #fa573e;
+    --accent: #4c4d59;
+    --green: #797a53;
+}
+@font-face {
+    font-family: unbounded;
+    src: url(https://fonts.google.com/specimen/Unbounded);
+}
+body {
+    background-color: var(--background);
+}
+header {
+    background-color: var(--light);
+}
+header h1 {
+    color: var(--main);
+    font-family: unbounded;
+    font-size: 40px;
+}
+
+nav {
+    
+}
