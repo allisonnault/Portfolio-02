@@ -127,10 +127,6 @@ section article {
     border: var(--main) solid 2px;
 }
 
-.contact {
-    display: flex;
-}
-
 .contact li {
     display: inline;
     margin-left: 10px;
