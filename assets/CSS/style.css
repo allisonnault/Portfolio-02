@@ -70,18 +70,19 @@ section {
    padding: 10px;
 }
 
-main h2 {
+section h2 {
     color: var(--accent);
     font-size: large;
     width: 15%;
     float: left;
     font-family: unbounded;
-    border-right: 5px solid var(--accent);
+    
     }
 
-section p {
+section article {
     width: 85%;
     float: right;
     margin-bottom: 20px;
     padding-left: 5px;
+    border-left: 5px solid var(--accent);
 }
