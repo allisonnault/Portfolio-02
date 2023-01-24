@@ -95,36 +95,31 @@ section article {
     display: flex;
     flex: 75%;
     float:right;
-    align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: space-between;
-
 }
 
 .work img {
     padding: 2px;
     border: var(--accent) solid 3px;
+    margin: 8px;
+    align-content: flex-start;
 }
 
-.work figure:first-of-type img {
-    width: 75%;
-    
-}
 .work figcaption {
     width: fit-content;
-    background-color: var(--light);
-    color: var(--main);
     font-weight: bolder;
     padding: 1px;
-    margin-top: -27px;
+    position: relative;
+    right: -20px;
+    bottom: 50px;
 }
 
-.work a {
-    text-decoration: none;
+.work h3 {
     color: var(--main);
     background-color: var(--light);
     padding: 3px;
     border: #4c4d59 solid 2px;
+   
 }
 
 .work a:hover {
