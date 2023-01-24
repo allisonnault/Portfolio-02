@@ -35,7 +35,8 @@ nav ul {
 nav li {
     float: right;
     margin: 20px;
-    color: var(--accent);
+    padding: 5px;
+    text-decoration: none;
 }
 
 nav a {
@@ -43,4 +44,38 @@ nav a {
     text-align: center;
     padding: 0px 16px;
     text-decoration: none;
+    color: var(--accent);
+}
+nav a:visited {
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--green);
+    font-weight: bolder;
+}
+
+/* main sections */
+.background-image img{
+    width: 100%;
+    margin-bottom: 25px;
+    display: inline-block;
+    padding: 10px;
+}
+
+section {
+   display: block;
+   padding: 10px;
+}
+
+section h2 {
+    color: var(--accent);
+    font-size: large;
+    width: 25%;
+    float: left;
+}
+
+section p {
+    width: 75%;
+    float: right;
+    margin-bottom: 20px;
 }
