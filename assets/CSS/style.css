@@ -80,7 +80,6 @@ section h2 {
     flex: 15%;
     float: left;
     font-family: unbounded;
-    
     }
 
 section article {
@@ -103,6 +102,7 @@ section article {
     border: var(--accent) solid 3px;
     margin: 8px;
     align-content: flex-start;
+    flex: 1 0 300;
 }
 
 .work figcaption {
@@ -125,4 +125,14 @@ section article {
 .work a:hover {
     color: var(--green);
     border: var(--main) solid 2px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact li {
+    display: inline;
+    margin-left: 10px;
+    justify-content: space-between;
 }
