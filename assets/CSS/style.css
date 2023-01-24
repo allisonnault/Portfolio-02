@@ -103,9 +103,12 @@ section article {
 
 .work img {
     width: 300px;
-    flex: 1 0 300px;
 }
 
+.work figure:first-of-type img {
+    width: 75%;
+    
+}
 .work figcaption {
     width:30%;
     background-color: var(--light);
@@ -116,3 +119,4 @@ section article {
     border: #4c4d59 solid 2px;
 
 }
+
