@@ -94,15 +94,14 @@ section article {
 .work {  
     display: flex;
     flex: 75%;
-    float:right
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    float:right;
     align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 .work img {
-    width: 300px;
     padding: 2px;
     border: var(--accent) solid 3px;
 }
