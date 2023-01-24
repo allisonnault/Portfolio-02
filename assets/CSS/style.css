@@ -44,7 +44,7 @@ nav li {
 nav a {
     display: block;
     text-align: center;
-    padding: 0px 16px;
+    padding: 0px 10px;
     text-decoration: none;
     font-family: unbounded;
 }
@@ -58,6 +58,10 @@ nav a:hover {
 }
 
 /* main sections */
+main {
+    display: flex;
+    flex-direction: column;
+}
 .background-image {
     width: 100%;
     margin-bottom: 25px;
@@ -73,17 +77,42 @@ section {
 section h2 {
     color: var(--accent);
     font-size: large;
-    flex: 20%;
+    flex: 15%;
     float: left;
     font-family: unbounded;
     
     }
 
 section article {
-    flex: 80%;
+    flex: 75%;
     float: right;
     margin-bottom: 20px;
-    padding-left: 5px;
+    padding-left: 10px;
     border-left: 5px solid var(--accent);
 }
 
+.work {  
+    display: flex;
+    flex: 75%;
+    float:right
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.work img {
+    width: 300px;
+    flex: 1 0 300px;
+}
+
+.work figcaption {
+    width:30%;
+    background-color: var(--light);
+    color: var(--main);
+    font-weight: bolder;
+    padding: 4px;
+    margin-top: -20px;
+    border: #4c4d59 solid 2px;
+
+}
