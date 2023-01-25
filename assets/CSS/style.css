@@ -92,24 +92,25 @@ section article {
     float:right;
     flex-wrap: wrap;
 }
-
+.work figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 300;
+}
 .work img {
     box-sizing: border-box;
     padding: 5px;
     margin-right: 20px;
     margin-bottom: 8px;
-    width: 100%;
-    height: auto;
     align-content: flex-start;
-    flex: 1 0 300;
-}
+} 
 
 .work figcaption {
     width: fit-content;
     font-weight: bolder;
     padding: 1px;
     position: relative;
-    right: -20px;
+    right: -12px;
     bottom: 50px;
 }
 
