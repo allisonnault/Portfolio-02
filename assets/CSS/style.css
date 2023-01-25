@@ -8,10 +8,7 @@
 * {
     box-sizing: border-box;
     color: var(--accent);
-}
-@font-face {
-    font-family: unbounded;
-    src: url(https://fonts.google.com/specimen/Unbounded);
+
 }
 body {
     background-color: var(--background);
@@ -24,7 +21,6 @@ header {
 
 header h1 {
     color: var(--main);
-    font-family: unbounded;
     font-size: 40px;
     margin: 10px;
     padding-left: 15px;
@@ -46,7 +42,6 @@ nav a {
     text-align: center;
     padding: 0px 10px;
     text-decoration: none;
-    font-family: unbounded;
 }
 
 nav a:visited {
@@ -77,13 +72,14 @@ section {
 section h2 {
     color: var(--accent);
     font-size: large;
-    flex: 15%;
+    flex: 10%;
     float: left;
-    font-family: unbounded;
+    text-align: right;
+    margin-right: 10px;
     }
 
 section article {
-    flex: 75%;
+    flex: 90%;
     float: right;
     margin-bottom: 20px;
     padding-left: 10px;
@@ -98,9 +94,12 @@ section article {
 }
 
 .work img {
-    padding: 2px;
-    border: var(--accent) solid 3px;
-    margin: 8px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    width: 100%;
+    height: auto;
     align-content: flex-start;
     flex: 1 0 300;
 }
@@ -119,7 +118,6 @@ section article {
     background-color: var(--light);
     padding: 3px;
     border: #4c4d59 solid 2px;
-   
 }
 
 .work a:hover {
