@@ -137,7 +137,7 @@ section h2 {
 }
 
 .empty:hover::after {
-    content: " : Comming Soon!";
+    content: " : Comming Soon";
 }
 
 .projects h3:hover {
