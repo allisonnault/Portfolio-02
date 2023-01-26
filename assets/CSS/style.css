@@ -187,6 +187,10 @@ a:hover {
     content: " : Comming Soon!";
 }
 
+footer {
+    min-height: 30px;
+}
+
 @media screen and (max-width: 992px){
     .sub-projects {
         width: 50%;
