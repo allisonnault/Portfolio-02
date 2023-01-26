@@ -88,15 +88,21 @@ section h2 {
 .about button {
     background-color: var(--light);
     padding: 5px;
-    border: var(--accent) solid 2px;
+    border-style: none;
+    /* border: var(--accent) solid 2px; */
 }
 .about button a {
     text-decoration: none;
     color: var(--main);
 }
 
-.about button a:hover {
-    color: var(--green);
+.about button:hover {
+    box-shadow: 1px 1px 2px var(--accent);
+    background-color: var(--background);
+}
+
+.about a:hover {
+    color: var(--green)
 }
     
 .about article, .contact article {
@@ -117,25 +123,30 @@ section h2 {
 .projects h3 {
     color: var(--main);
     background-color: var(--background);
-    border: var(--accent) solid 2px;
+    /* border: var(--accent) solid 2px; */
     width: fit-content;
     font-weight: bolder;
     padding: 5px;
     position: relative;
     right: -7px;
-    bottom: 47px;
+    bottom: 50px;
+}
+.projects a:hover {
+    color: var(--green);
+}
+
+.empty:hover::after {
+    content: " : Comming Soon!";
+}
+
+.projects h3:hover {
+    box-shadow: 1px 1px 2px var(--accent);
 }
 
 .projects a {
     text-decoration: none;
     color: var(--main);
 }
-/* 
-.projects img {
-    padding: 4px;
-    margin-right: 10px;
-    } */
-
 
 .focus-project {
     width: 100%;
@@ -179,12 +190,8 @@ section h2 {
     text-decoration: none;
 }
 
-a:hover {
+.contact a:hover {
     color: var(--green);
-}
-
-.empty:hover::after {
-    content: " : Comming Soon!";
 }
 
 footer {
