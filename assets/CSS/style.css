@@ -19,6 +19,7 @@ header {
     background-color: var(--light);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -33,12 +34,11 @@ nav ul {
 }
 
 nav li {
-    float: left;
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
+    display: inline;
 }
 nav a {
-    display: block;
     text-align: center;
     padding: 0px 10px;
     text-decoration: none;
@@ -138,7 +138,7 @@ section h2 {
 
 
 .focus-project {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -149,14 +149,14 @@ section h2 {
 }
 
 .sub-projects {
-    width: 40%;
+    width: 25%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .sub-projects img {
-    max-width: 100%;
+    max-width: 90%;
 }
 /* contact info section */
 .contact ul {
@@ -179,4 +179,20 @@ a:hover {
 
 .empty:hover::after {
     content: " : Comming Soon!";
+}
+
+@media screen and (max-width: 992px){
+    .sub-projects {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .sub-projects {
+        width: 100%;
+    }
+    header li {
+        display: block;
+    }
 }
