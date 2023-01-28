@@ -1,4 +1,6 @@
 # Portfolio-02
+[Portfolio-02](https://allisonnault.github.io/Portfolio-02/)
+![Portfolio screenshot](./assets/images/readme1.png)
 
 ## Description
 
@@ -15,6 +17,10 @@ If you click on the project captions, they will take you to the deployed web app
 
 If you click on the links in the section "contact me", they will direct you to those contact methods.
 
+If you adjust the screensize, the project image sizes will change as well
+![full screen view](./assets/images/readme2.png)
+![mid size screen view](./assets/images/readme3.png)
+![narrow screen view](./assets/images/readme4.png)
 
 
 ## License
